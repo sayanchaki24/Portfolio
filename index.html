@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sayan Chaki - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="#hero">Sayan Chaki</a>
+        </div>
+        <button class="hamburger-menu" aria-label="Toggle Navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="theme-toggle" aria-label="Toggle Dark Mode">🌙</button>
+      </nav>
+    </header>
+    <main>
+      <section id="hero" class="hero-section">
+        <div class="hero-content">
+          <h1>Hi, I'm <span>Sayan Chaki</span></h1>
+          <p class="tagline">
+            Final-year CSE student specializing in AI & ML | Web Developer | Gamer
+          </p>
+          <div class="social-links">
+            <a
+              href="https://www.linkedin.com/in/sayan-chaki-162370259"
+              target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="https://github.com/sayanchaki24" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a href="mailto:sayanchaki2405@gmail.com" target="_blank"
+              ><i class="fas fa-envelope"></i
+            ></a>
+          </div>
+          <a href="#projects" class="btn primary-btn">View My Projects</a>
+          <a href="https://drive.google.com/file/d/1b6uPQi9--i5XozpxzlgmU13UzGolGiYJ/view?usp=drive_link" class="btn secondary-btn" download>Download CV</a>
+        </div>
+        <div class="hero-image">
+          <img
+            src="Image_Updated.png"
+            alt="Sayan Chaki - AI/ML Engineer"
+          />
+        </div>
+      </section>
+
+      <section id="about" class="about-section section-padding">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <p>
+            I'm Sayan Chaki, a Computer Science Engineering student at Garden
+            City University with a specialization in AI and ML. I’m passionate
+            about intelligent systems, predictive modeling, and full-stack
+            development.
+          </p>
+        </div>
+      </section>
+
+      <section id="skills" class="skills-section section-padding">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-container">
+          <div class="skill-category">
+            <h3>Programming Languages</h3>
+            <ul>
+              <li><i class="fab fa-python"></i> Python</li>
+              <li><i class="fas fa-code"></i> C++</li>
+              <li><i class="fab fa-js-square"></i> JavaScript</li>
+              <li><i class="fas fa-code"></i> C, Java, SQL</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3>Frameworks & Libraries</h3>
+            <ul>
+              <li>NumPy, Pandas, OpenCV</li>
+              <li>Matplotlib, FastAPI</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3>Web Development</h3>
+            <ul>
+              <li>HTML, CSS, JavaScript, FastAPI</li>
+              <li>MongoDB, MongoDB Atlas</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3>Tools & Platforms</h3>
+            <ul>
+              <li>Git, GitHub</li>
+              <li>Linux, AWS, VS Code</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="projects-section section-padding">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <h3>Facial Recognition Attendance System</h3>
+            <p class="project-description">
+              Real-time face detection using OpenCV and dlib. Achieved 90%+
+              accuracy and automated attendance logging with Pandas.
+            </p>
+            <div class="project-tags">
+              <span>OpenCV</span><span>dlib</span><span>Pandas</span>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <h3>Stock Market Prediction & Strategy</h3>
+            <p class="project-description">
+              LSTM-based predictive model for stock forecasting with 87%
+              accuracy. Includes backtesting with real trading strategies.
+            </p>
+            <div class="project-tags">
+              <span>Python</span><span>LSTM</span><span>Matplotlib</span>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <h3>Full-Stack Web App with MongoDB</h3>
+            <p class="project-description">
+              Built responsive website with FastAPI backend and MongoDB Atlas
+              cloud database. Used JavaScript, HTML, and CSS for frontend.
+            </p>
+            <div class="project-tags">
+              <span>FastAPI</span><span>MongoDB</span><span>HTML/CSS</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section section-padding">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="container">
+          <div
+            class="contact-content"
+            style="display: flex; flex-wrap: wrap; gap: 2rem"
+          >
+            <div class="contact-card" style="flex: 1 1 48%; min-width: 320px">
+              <h3>Contact Info</h3>
+              <p>
+                <i class="fas fa-envelope"></i> Email:
+                <a href="mailto:sayanchaki2405@gmail.com"
+                  >sayanchaki2405@gmail.com</a
+                >
+              </p>
+              <p><i class="fas fa-phone"></i> Phone: +91 7483873358</p>
+              <p><i class="fas fa-map-marker-alt"></i> Bengaluru, India</p>
+            </div>
+            <div class="contact-card" style="flex: 1 1 48%; min-width: 320px">
+              <form class="contact-form" action="#" method="POST">
+                <div class="form-group">
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" required />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required />
+                </div>
+                <div class="form-group">
+                  <label for="subject">Subject:</label>
+                  <input type="text" id="subject" name="subject" />
+                </div>
+                <div class="form-group">
+                  <label for="message">Message:</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    required
+                  ></textarea>
+                </div>
+                <button
+                  type="submit"
+                  class="btn primary-btn"
+                  style="
+                    text-align: center;
+                    padding: 15px 30px;
+                    font-size: 20px;
+                    margin-top: 20px;
+                  "
+                >
+                  Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2025 Sayan Chaki. All rights reserved.</p>
+        <div class="footer-social-links">
+          <a
+            href="https://www.linkedin.com/in/sayan-chaki-162370259"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/sayanchaki24" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="mailto:sayanchaki2405@gmail.com" target="_blank"
+            ><i class="fas fa-envelope"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
